@@ -1,2 +1,2 @@
-# magento2-blog-module
+# onwer by Boby Gupta
 Blog extension for Magento 2
