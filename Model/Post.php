@@ -9,7 +9,7 @@ declare(strict_types=1);
  {
     protected function _construct()
     {
-        $this->_init( resourceModel: PostResource::class);
+        $this->_init(PostResource::class);
         parent::_construct();
     }
  }

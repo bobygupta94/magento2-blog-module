@@ -13,7 +13,7 @@ class Post extends AbstractDb
 
     protected function _construct()
     {
-        $this->_init(mainTable: self::TABLE_NAME, idFieldName: self::PRIMARY_KEY);
+        $this->_init(self::TABLE_NAME, self::PRIMARY_KEY);
 
     }
 }

@@ -11,6 +11,6 @@ class collection extends AbstractCollection
 {
     protected function _construct()
     {
-        $this->_init(model: Post::class, resourceModel: PostResource::class);
+        $this->_init(Post::class, PostResource::class);
     }
 }
